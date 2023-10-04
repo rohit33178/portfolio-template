@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu{
+  padding:0rem 2rem;
+  border-radius: 5px;
+  align-items: center;
+}
+.menu:hover{
+  background-color: #f90;
+  color: black;
+  padding:0rem 2rem;
+  border-radius: 5px;
+}
