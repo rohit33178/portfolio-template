@@ -7,15 +7,15 @@
   padding:0rem 2rem;
   border-radius: 5px;
 }
-.menu:hover, .menu .active:hover{
-  background-color: #f90;
-  color: black;
-  padding:0.5rem 2rem;
-  border-radius: 5px;
-}
-.menu .active{
+
+.active{
   background-color: #f90;
   color: #fff;
   padding:0.5rem 2rem;
   border-radius: 5px;
 }
+.in-active{
+  padding:0.5rem 2rem;
+  border-radius: 5px;
+}
+
