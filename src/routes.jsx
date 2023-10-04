@@ -2,11 +2,11 @@ import { createBrowserRouter } from "react-router-dom"
 import App from "./App"
 import { Login } from "./components/Login"
 import { Signup } from "./components/Signup"
-import { Home } from "./components/Home"
-import { About } from "./components/About"
+import { Highlights } from "./components/Highlights"
 import { Contact } from "./components/Contact"
-import { Services } from "./components/Services"
+import { Experience } from "./components/Experience"
 import Content from "./components/Content"
+import { Projects } from "./components/Projects"
 
 const router = createBrowserRouter([
     {
@@ -19,11 +19,15 @@ const router = createBrowserRouter([
         },
         {
           path: "highlights", 
-          element: <About />
+          element: <Highlights />
         },
         {
-          path: "services", 
-          element: <Services />
+          path: "experience", 
+          element: <Experience />
+        },
+        {
+          path: "projects", 
+          element: <Projects />
         },
         {
           path: "contact", 

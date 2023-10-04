@@ -10,7 +10,8 @@ export const Home = () => {
             </div>
             <div className='pt-8 text-center'>
                <h1 className='text-3xl underline text-black shadow-xl'>Rohit Singh Rajput</h1> 
-               <h2 className='text-md'> Fullstack Software Engineer</h2>
+               <h2 className='text-md'> MERN Fullstack Software Engineer</h2>
+               <h2 className='text-md'> singh.rohit33178@gmail.com</h2>
                <h2 className='text-md'> +91 9953933178</h2>
             </div>
         </div>

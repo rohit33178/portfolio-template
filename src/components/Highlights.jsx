@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const About = () => {
+export const Highlights = () => {
   return (
     <div>
-        <h2 className='text-4xl text-red-600'>Highlights about me</h2>
+        <h2 className='text-4xl text-red-600'>Highlights About Me</h2>
 
-        <ul className='w-[1000px] mx-auto text-left list-disc p-4 h-[350px] overflow-scroll'>
+        <ul className='w-[800px] h-2 mx-auto mt-8 mb-8 text-left list-disc p-4'>
         <li>I Have been working in IT for about 10 Years. During this time, I have done a different things like planning, creating, testing and building automated tools like Zapier with different software programs</li>
         <li>As an Associate Solution Architect working on designing SaaS (Software as a Service) product.	 </li>
         <li>Understanding the transition from Monolithic architecture to a Microservice architecture   involves knowing how to change the way of software system is structured and organized.</li>

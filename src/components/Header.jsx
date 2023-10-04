@@ -1,27 +1,20 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigation } from 'react-router-dom'
+import { menus } from '../menu'
 
 export const Header = () => {
+  let routes = useNavigation()  
   return (
     <div>
         
-        <ul className='flex justify-center gap-2 p-5'>
-            <li className='menu'>
-                <NavLink to="/">Home</NavLink>
-            </li>
+        <ul className='w-[800px] mx-auto flex justify-center p-6'>
             
-            <li className='menu'>
-                <NavLink to="/highlights">Highlights</NavLink>
+            {menus?.map(menu => (
+            <li className={`menu `}>
+                <NavLink className={`${routes.isActive === menu.path ? 'active': ''}`} to={`${menu.path}`}>{menu.name}</NavLink>
             </li>
-            
-            <li className='menu'>
-                <NavLink to="/services">Services</NavLink>
-            </li>
-            
-            <li className='menu'>
-                <NavLink to="/contact">Contact</NavLink>
-            </li>
-            
+            ))}
+
         </ul>
     </div>
   )

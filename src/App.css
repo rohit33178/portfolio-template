@@ -6,11 +6,16 @@
 .menu{
   padding:0rem 2rem;
   border-radius: 5px;
-  align-items: center;
 }
-.menu:hover{
+.menu:hover, .menu .active:hover{
   background-color: #f90;
   color: black;
-  padding:0rem 2rem;
+  padding:0.5rem 2rem;
+  border-radius: 5px;
+}
+.menu .active{
+  background-color: #f90;
+  color: #fff;
+  padding:0.5rem 2rem;
   border-radius: 5px;
 }
